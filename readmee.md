@@ -1,4 +1,4 @@
- ## What is?
+## What is ?
 
 Extract file from link with XML File.
 
@@ -39,7 +39,21 @@ You must have a link between these two tags:
 ```
 
 The files in these links will be downloaded.
-## Dependencies
+>Well, how does it download?
+```cmd
+  run
+
+```
+
+and start downloading the dw.xml file from the following links.
+
+
+>re -DW 
+>
+> This works the same as the **run** command.
+>
+>
+## Addictions
 
 This project requires a dependency that is not in **Pom.xml**:
 >Add this if you copied the project:
@@ -52,4 +66,3 @@ This project requires a dependency that is not in **Pom.xml**:
 [MIT](https://choosealicense.com/licenses/mit/)
 
   
-
