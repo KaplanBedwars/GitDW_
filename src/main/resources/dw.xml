@@ -1,0 +1,11 @@
+<config>
+    <project>
+        <name>MyJavaProject</name>
+        <version>1.0</version>
+        <githubLinks>
+            <link>https://github.com/user/repo/releases/download/v1.0/file1.jar</link>
+            <link>https://github.com/user/repo/releases/download/v1.0/file2.jar</link>
+        </githubLinks>
+    </project>
+</config>
+æ

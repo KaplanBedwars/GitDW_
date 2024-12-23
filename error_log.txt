@@ -1,0 +1,79 @@
+==== HATA RAPORU ====
+// Sistem Hata Raporu
+Tarih: 2024-12-22 19:36:52
+Ciddiyet: Bilinmiyor
+Özel Mesaj: Dosya indirilirken bir hata oluştu: https://github.com/user/repo/releases/download/v1.0/file2.jar
+
+==== HATA DETAYLARI ==== 
+Hata Türü: java.io.FileNotFoundException
+Hata Mesajı: https://github.com/user/repo/releases/download/v1.0/file2.jar
+
+==== SİSTEM BİLGİLERİ ==== 
+java.specification.version: 22
+sun.cpu.isalist: amd64
+sun.jnu.encoding: Cp1254
+java.class.path: D:\!PROJELER!\GitDW_\target\classes;C:\Users\akgls\OneDrive\Desktop\erorlog.jar
+java.vm.vendor: Oracle Corporation
+sun.arch.data.model: 64
+user.variant: 
+java.vendor.url: https://java.oracle.com/
+user.timezone: Europe/Istanbul
+java.vm.specification.version: 22
+os.name: Windows 11
+sun.java.launcher: SUN_STANDARD
+user.country: TR
+sun.boot.library.path: C:\Program Files\Java\jdk-22\bin
+sun.java.command: dev.kaplanbedwars.GitDW.Main
+jdk.debug: release
+sun.cpu.endian: little
+user.home: C:\Users\akgls
+user.language: tr
+sun.stderr.encoding: UTF-8
+java.specification.vendor: Oracle Corporation
+java.version.date: 2024-04-16
+java.home: C:\Program Files\Java\jdk-22
+file.separator: \
+java.vm.compressedOopsMode: 32-bit
+sun.stdout.encoding: UTF-8
+line.separator: 
+
+java.vm.specification.vendor: Oracle Corporation
+java.specification.name: Java Platform API Specification
+user.script: 
+sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+java.runtime.version: 22.0.1+8-16
+user.name: akgls
+stdout.encoding: UTF-8
+path.separator: ;
+os.version: 10.0
+java.runtime.name: Java(TM) SE Runtime Environment
+file.encoding: UTF-8
+java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+java.vendor.url.bug: https://bugreport.java.com/bugreport/
+java.io.tmpdir: C:\Users\akgls\AppData\Local\Temp\
+java.version: 22.0.1
+user.dir: D:\!PROJELER!\GitDW_
+os.arch: amd64
+java.vm.specification.name: Java Virtual Machine Specification
+sun.os.patch.level: 
+native.encoding: Cp1254
+java.library.path: C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\one;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-22\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\akgls\AppData\Local\Microsoft\WindowsApps;C:\Users\akgls\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\akgls\AppData\Local\GitHubDesktop\bin;C:\Users\akgls\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.2\bin;;C:\Users\akgls\.dotnet\tools;C:\Users\akgls\AppData\Roaming\npm;.
+java.vm.info: mixed mode, sharing
+stderr.encoding: UTF-8
+java.vendor: Oracle Corporation
+java.vm.version: 22.0.1+8-16
+sun.io.unicode.encoding: UnicodeLittle
+java.class.version: 66.0
+
+==== ÇÖZÜM ÖNERİLERİ ==== 
+1. Hata mesajını inceleyerek kodunuzu kontrol edin.
+2. Daha fazla yardım için sistem yöneticinize veya geliştiriciye başvurun.
+==== YIĞIN İZLEME (STACK TRACE) ==== 
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2010)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+	at java.base/java.net.URL.openStream(URL.java:1325)
+	at dev.kaplanbedwars.GitDW.GitHubDownloader.downloadFile(GitHubDownloader.java:15)
+	at dev.kaplanbedwars.GitDW.Main.main(Main.java:20)
+
+========================
