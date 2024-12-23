@@ -1,5 +1,8 @@
+**[English](https://github.com/KaplanBedwars/GitDW_/blob/main/readmee.md)**
+
+
+
 ## Nedir?
-[English](https://github.com/KaplanBedwars/GitDW_/blob/main/readmee.md)
 
 XML Dosyası ile link'ten dosya çekme.
 
@@ -40,6 +43,20 @@ Bu iki etiketin arasında linkinizin olması gerekir.:
 ```
 
 Bu linklerdeki dosyalar indirileckektir.
+>Peki ya, nasıl indirecek?
+```cmd
+  run
+
+```
+
+komutunu yazın ve dw.xml dosyasıdnaki linklerden indirmeye başlansın.
+
+
+>re -DW 
+>
+> Buda **run** komutu ile aynı işkevi görür.
+>
+>
 ## Bağımlılıklar
 
 Bu proje **Pom.xml** dosyasında olmayan bir bağımlılık ister:
